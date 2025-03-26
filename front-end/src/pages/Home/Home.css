@@ -1,0 +1,91 @@
+main {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30%;
+    background-color: #00C8FF;
+    z-index: -1;
+    box-shadow: #00C8FF 0 0 15px;
+}
+
+.image-container {
+
+    img {
+        max-height: 700px;
+        max-width: 100%;
+        position: relative;
+        top: 200px;
+    }
+}
+
+.game-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    h1 {
+        font-size: 96px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #FF00D9;
+        text-align: center;
+        line-height: 100%;
+        font-weight: lighter;
+        margin-bottom: 20px;
+
+        /* t->b->l->r*/
+        /* x y color */
+        /* color x y blur */
+        /* add white border + neon glow */
+        text-shadow:
+            3px 0px #fff, -3px -0px #fff, 0px 3px #fff, 0px -3px #fff,
+            2px 2px #fff, -2px -2px #fff, 2px -2px #fff, -2px 2px #fff,
+            1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff,
+            #FF00D9 0 0 20px;
+
+    }
+
+    button {
+        width: 315px;
+        height: 60px;
+        border-radius: 5px;
+        font-size: 24px;
+        text-align: center;
+        border: white 4px solid;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+}
+
+.play-button {
+    background-color: #C300FF;
+    box-shadow: #C300FF 0 0 15px;
+}
+
+.podium-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006FFF;
+    box-shadow: #006FFF 0 0 15px;
+}
+
+.room-button {
+    background-color: #F1D64D;
+    box-shadow: #F1D64D 0 0 15px;
+}

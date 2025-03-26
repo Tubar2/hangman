@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+* {
+    font-family: "Jaro", sans-serif;
+}
+
+#root {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: red; */
+}
+
+body {
+    background-color: #1A1E21;
+}

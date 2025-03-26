@@ -1,0 +1,47 @@
+.corda-1 {
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25%;
+
+    img {
+        height: 100%;
+    }
+}
+
+.corda-2 {
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25%;
+
+    img {
+        height: 100%;
+    }
+}
+
+.corda-3 {
+    z-index: -10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 25%;
+
+    img {
+        height: 100%;
+    }
+}
+
+.corda-4 {
+    z-index: -10;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 25%;
+
+    img {
+        height: 100%;
+    }
+}
